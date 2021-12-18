@@ -1,0 +1,49 @@
+*{
+  font-family: Consolas, sans-serif;
+}
+
+.mainBody {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 200px;  border: 0.5px solid black;
+}
+
+.display {
+  box-sizing: border-box;
+  height: 150px;
+  width: 200px;  
+  border: 0.5px solid black;
+  line-height: 150px;
+}
+
+.btn {
+  box-sizing: border-box; 
+  height: 50px;
+  width: 50px;
+  border: 0.5px solid black;
+  text-align: center;
+  line-height: 50px;
+}
+
+.btn:hover {
+  background-color: orange;
+}
+
+.display {
+  padding: auto 8px;  
+  border: 0.5px solid black;
+}
+
+.clear {
+  width: 75px;
+}
+
+.clearAll {
+  width: 75px;
+}
+
+.equal {
+  width: 100px;
+}
